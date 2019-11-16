@@ -7,9 +7,9 @@ public abstract class Operation {
 
     public abstract void calcular(double x, double y);
     
-	public abstract double getResult();
-
-	public abstract void setResult(double result);
+	public void setResult(double result) {
+		this.result = result;
+	}
     
     
 }

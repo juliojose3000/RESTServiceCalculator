@@ -6,7 +6,7 @@ public class Subtraction extends Operation{
 
     public Subtraction(double x, double y) {
         super(x, y, '-');
-        this.setResult(x - y);
+        setResult(x - y);
     }
     
 }

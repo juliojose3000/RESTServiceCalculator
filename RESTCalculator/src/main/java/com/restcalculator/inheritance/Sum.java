@@ -6,8 +6,8 @@ public class Sum extends Operation{
 
     public Sum(double x, double y) {
         super(x, y, '+');
-        this.setResult(x + y);
-      
+        setResult(x + y);
+     
     }
 
 }

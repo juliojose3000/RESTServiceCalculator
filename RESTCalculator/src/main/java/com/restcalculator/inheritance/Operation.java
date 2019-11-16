@@ -14,20 +14,10 @@ public class Operation {
       this.operation = operation;
   }
   
-  public double showResult(){
-      
-      return this.result;
-      
-  }
-  
-
-  public double getResult() {
-      return result;
-  }
-
   public void setResult(double result) {
       this.result = result;
   }
+  
   
 }
   

@@ -8,15 +8,5 @@ public class Subtraction extends Operation{
     public void calcular(double x, double y) {
     	setResult(x - y);
     }
-
-	@Override
-	public double getResult() {
-		return result;
-	}
-
-	@Override
-	public void setResult(double result) {
-		this.result = result;
-	}
   
 }
